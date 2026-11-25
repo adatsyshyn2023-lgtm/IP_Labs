@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trivia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#scores">Scores</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>World Trivia</h1>
+            <p>World Trivia brings together curious minds for daily facts, themed quizzes, and friendly competition. Explore topics from science to history and track your progress on the global leaderboard.</p>
+        </section>
+
+        <section id="trivia">
+            <h2>Trivia</h2>
+            <div class="trivia-item">
+                <img src="img/venus.jpg" alt="">
+                <div>
+                    <h3>A Day Longer Than a Year</h3>
+                    <p>Venus rotates on its axis so slowly that one full rotation takes 243 Earth days, while its orbit around the Sun takes only 225 Earth days.</p>
+                </div>
+            </div>
+            <div class="trivia-item">
+                <img src="img/octopus.jpg" alt="">
+                <div>
+                    <h3>Three Hearts</h3>
+                    <p>An octopus has three hearts and blue copper-based blood. Two hearts pump blood to the gills, and the third circulates it to the rest of the body.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#categories">Science</a></li>
+                <li><a href="#categories">History</a></li>
+                <li><a href="#categories">Geography</a></li>
+                <li><a href="#categories">Literature</a></li>
+                <li><a href="#categories">Space</a></li>
+            </ul>
+        </section>
+
+        <section id="scores">
+            <h2>Scores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Country</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Andrii</td>
+                        <td>970</td>
+                        <td>Ukraine</td>
+                        <td>Space</td>
+                        <td>2025-04-14</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kateryna</td>
+                        <td>935</td>
+                        <td>Ukraine</td>
+                        <td>Science</td>
+                        <td>2025-04-15</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Lukas</td>
+                        <td>890</td>
+                        <td>Germany</td>
+                        <td>Geography</td>
+                        <td>2025-04-16</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Sofia</td>
+                        <td>860</td>
+                        <td>Spain</td>
+                        <td>Literature</td>
+                        <td>2025-04-17</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="subscribe">
+            <h2>Subscribe</h2>
+            <p>Receive a new trivia challenge in your inbox every day.</p>
+            <button type="button" class="pulse-btn" aria-label="Subscribe to Puzzle of the Day">
+                Puzzle of the Day <span class="sr-only">click to subscribe</span>
+            </button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Want to submit your own fact or ask a question? Fill out the form below.</p>
+            <form action="#" method="post">
+                <label for="user-name">Name</label>
+                <input type="text" id="user-name" name="name" required>
+
+                <label for="user-email">Email</label>
+                <input type="email" id="user-email" name="email" required>
+
+                <label for="user-message">Message</label>
+                <textarea id="user-message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 World Trivia</p>
+    </footer>
+</body>
+</html>
